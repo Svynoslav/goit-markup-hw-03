@@ -192,14 +192,16 @@ img {
     font-weight: 500;
     line-height: 120%;
     letter-spacing: 0.4px;
-    padding-top: 32px;
+    margin-bottom: 8px;
 }
 .team-text {
     text-align: center;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.32px;
-    padding-bottom: 32px;
+}
+.team-text-wrap {
+    padding: 32px 0;
 }
 
 /* Our Portfolio section */
