@@ -21,6 +21,7 @@ img {
 .container {
     max-width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 .section {
     padding-top: 120px;
@@ -45,7 +46,6 @@ img {
 }
 .header-container {
     display: flex;
-    padding: 0 15px;
 }
 .header-navigation {
     display: flex;
@@ -68,6 +68,7 @@ img {
     line-height: 150%;
     letter-spacing: 0.32px;
     padding: 24px 0;
+    display: block;
 }
 
 .navigation-link:hover,
@@ -89,6 +90,8 @@ img {
     line-height: 150%;
     letter-spacing: 0.32px;
     color: #434455;
+    display: block;
+    padding: 24px 0;
 }
 
 /* body */
@@ -259,6 +262,5 @@ img {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.32px;
-    margin-top: 17.5px;
     max-width: 264px;
 }
