@@ -33,11 +33,13 @@ img {
 /* individual styles */
 
 /* header */
+.head {
+    border-bottom: 1px solid #E7E9FC;
+}
 .header-container {
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
-    border-bottom: 1px solid #E7E9FC;
 }
 .header-navigation {
     display: flex;
