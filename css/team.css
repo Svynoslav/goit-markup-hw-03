@@ -1,0 +1,12 @@
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-section h3,
+.team-section p {
+  text-align: center;
+}
+
+.team-card {
+  background-color: #fff;
+}
