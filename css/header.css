@@ -1,5 +1,24 @@
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  padding: 0 156px 0 156px;
+}
+
+.header-container {
+  display: flex;
+}
+
 .logo-header {
   color: #2e2f42;
+  margin-right: 76px;
+  padding: 24px 0 24px 0;
+}
+
+.nav-container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 24px 0 24px 0;
+  margin-right: 340px;
 }
 
 .nav-link {
@@ -13,6 +32,13 @@
 
 address {
   font-style: normal;
+}
+
+.address-container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 24px 0 24px 0;
 }
 
 .address-link:hover,

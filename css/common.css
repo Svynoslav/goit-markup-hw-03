@@ -7,6 +7,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
+  margin: 0;
 }
 
 a {
@@ -18,10 +20,51 @@ button {
   cursor: pointer;
   color: inherit;
   border: none;
+  display: block;
 }
 
+/* 
 ul {
   list-style-type: none;
+} */
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+}
+
+.section {
+  padding: 120px 0 120px 0;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0;
+  margin: 0 auto;
 }
 
 .logo {
@@ -41,6 +84,7 @@ ul {
   color: #2e2f42;
   text-align: center;
   line-height: 1.11;
+  margin-bottom: 72px;
 }
 
 .default-title {
@@ -48,4 +92,5 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
